@@ -1,0 +1,198 @@
+/*Medium device (MD)*/
+@media (max-width: 1199px) {
+.navigation .nav > li:nth-child(4) {
+	margin-right: 243px;
+}
+.logo {
+	text-align: center;
+}
+.logo img {
+	margin: 0 auto;
+	width: 59%
+}
+.navigation .nav li a {
+	padding: 13px 14px;
+}
+.carousel {
+	height: 564px;
+}
+.welcomeContentWide {
+	background-position: 56% top;
+}
+.welcomeContent {
+	padding-top: 130px;
+}
+.welcomeContent h1, .welcomeContent h1 a {
+	font-size: 48px;
+}
+.welcomeContent h1 small, .welcomeContent h1 a small {
+	font-size: 28px;
+}
+.signUpWide h6, .signUpWide h6 a {
+	font-size: 17px;
+	text-align: right;
+}
+.signUpWide h6 {
+	padding-top: 25px;
+	padding-bottom: 17px;
+}
+.signUpWide h6 a span {
+	float: right;
+	margin: 0 0 0 9px;
+}
+.signUpWide h6 .fa {
+	font-size: 40px;
+}	
+}
+/*Small device (SD)*/
+@media (max-width: 991px) {
+.logo {
+	margin-bottom: 0;
+}
+.navigation .nav li.menuLeft:after,
+.navigation .nav li.menuRight:before {
+	content: normal;
+}
+.navigation .nav > li:nth-child(4) {
+	margin-right: 0;
+}
+.navigation .nav li.menuRight {
+	margin-left: 0;
+}
+.navigation .nav {
+	text-align: center;
+}
+.carousel {
+	height: 485px;
+}
+.welcomeContent {
+	padding-top: 71px;
+}
+.welcomeContentWide {
+	background-position: right bottom;
+	-webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: auto;
+}
+.welcomeContent h1, .welcomeContent h1 a {
+	font-size: 48px;
+}
+.welcomeContent h1 small, .welcomeContent h1 a small {
+	font-size: 28px;
+}
+.scheduleApointmentWide {
+	background-position: left center;
+}
+.scheduleApointment {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	text-align: center;
+}
+.scheduleApointment h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+.scheduleApointment h2 span {
+	font-size: 18px;
+}
+.signUpWide {
+	position: relative;
+	background-position: right center;
+}
+.signUpWide h6 br {
+	display: none;
+}
+.signUpWide h6 {
+	text-align: center;
+}
+.signUpWide h6 a span {
+	float: none;
+}
+}
+/*Extra small device (XS)*/
+@media (max-width: 767px) {	
+	.header {
+		padding-top: 10px;
+	}
+	.header .btnBlack {
+		position: static;
+		margin: 10px auto;
+	}
+	.logo img {
+		width: 73%;
+	}
+	.navbar-nav {
+	 	margin: 0;
+	}
+	.navigation .nav li {
+		display: block;
+	}
+	.navigation .nav li a {
+		text-align: left;
+		padding: 7px 14px;
+	}
+	.navigation .nav li .dropdown-menu {
+		position: relative;
+		width: 100%;
+	}
+	.navigation .nav li .dropdown-menu li a {
+		padding: 6px 15px;
+	}
+	.navbar-toggle {
+		border: 1px solid #205bbc;
+	}
+	.navbar-toggle.active{
+		border: 1px solid #dbdadb;
+		min-height: 34px;
+	}
+	.navbar-toggle .icon-bar {
+		background-color: #fff;
+	}
+	.navbar-toggle.active .skew-clock {
+   	 	transform: rotate(40deg);
+	}
+	.navbar-toggle.active .hide-closed {
+    	opacity: 0 !important;
+	}
+	.navbar-toggle.active .skew-counter {
+		background-color: #205bbc;
+    	transform: rotate(-40deg);
+		transition: all 0.20s linear 0s;
+	}
+	.navbar-toggle.active .icon-bar {
+		background-color: #205bbc;
+    	margin-bottom: -6px;
+		transition: all 0.20s linear 0s;
+	}
+	.footerMenu li a {
+		padding-bottom: 9px;
+	}
+	.footerMenu,
+	.socialMedia {
+		text-align: center;
+	}
+	.footerBottomWide p {
+		text-align: center;
+	}
+	
+}
+/*Extra small device (XS-More refine)*/
+@media (max-width: 480px) {	
+	.welcomeContent {
+		padding-top: 52px;
+	}
+	.welcomeContent h1,
+	.welcomeContent h1 a {
+		font-size: 38px;
+	}
+	.welcomeContent h1 small,
+	.welcomeContent h1 a small {
+		font-size: 19px;
+	}
+	.welcomeContent p {
+		font-size: 14px;
+	}
+}
+
+

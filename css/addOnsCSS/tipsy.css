@@ -1,0 +1,81 @@
+
+.toolTipData {
+	background: rgba(0, 0, 0, 0.9);
+	min-width: 330px;
+	padding: 9px;
+	position: absolute;
+	-webkit-box-shadow: 0 0 9px 3px rgba(255,255,255,0.5);
+	box-shadow: 0 0 9px 3px rgba(255,255,255,0.5);
+	display: none;
+}
+.toolTipData.top {
+	bottom: 14px;
+}
+.toolTipData.top .toolTipArrow {
+	content: "";
+	border-top: 7px solid #000;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	position: absolute;
+	bottom: -7px;
+	left: 14px;
+	width: 14px;
+	height: 5px;
+}
+.toolTipData.bottom {
+	top: 53px;
+}
+.toolTipData.bottom .toolTipArrow {
+	content: "";
+	border-bottom: 7px solid #000;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	position: absolute;
+	top: -7px;
+	left: 14px;
+	width: 14px;
+	height: 5px;
+}
+.toolTipData.left {
+	right: 16px;
+}
+.toolTipData.left .toolTipArrow {
+	content: "";
+	border-bottom: 7px solid transparent;
+	border-left: 7px solid #000;
+	border-top: 7px solid transparent;
+	position: absolute;
+	top: 14	px;
+	right: -14px;
+	width: 14px;
+	height: 5px;
+}
+.toolTipData.right {
+	left: 53px;
+}
+.toolTipData.right .toolTipArrow {
+	content: "";
+	border-bottom: 7px solid transparent;
+	border-right: 7px solid #000;
+	border-top: 7px solid transparent;
+	position: absolute;
+	top: 14px;
+	left: -14px;
+	width: 14px;
+	height: 5px;
+}
+.toolTipDataInner {
+	color: #FFF;
+	padding: 5px;
+	width: 100%;
+}
+.toolTipDataInner h6 {
+	color: #205bbc;
+	font-size: 17px;
+	margin-bottom: 9px;
+}
+.toolTipDataInner p {
+	color: #fff;
+	font-size: 15px;
+	margin-bottom: 9px;
+}
