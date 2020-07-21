@@ -13,7 +13,7 @@ $(window).load(function(){
 	//Script for Machinery carousel
 	var owl = $("#machineryCarousel");	
 		owl.owlCarousel({
-		autoPlay : 500000000000000000000000000000000,	
+		autoPlay : false,	
 		items : 4,
 		itemsDesktop : [1200,3],
 		itemsDesktopSmall : [991,4],
